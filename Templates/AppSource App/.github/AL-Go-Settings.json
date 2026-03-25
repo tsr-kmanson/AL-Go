@@ -1,5 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/main/.Modules/settings.schema.json",
   "type": "AppSource App",
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@main"
+  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@main",
+  "runs-on": "ubuntu-latest",
+  "githubRunner": "ubuntu-latest",
+  "githubRunnerShell": "pwsh"
 }
